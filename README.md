@@ -15,11 +15,11 @@ Some of the features of the language, that I’ve gathered so far and found inte
 - F# is very powerful in complex and heavy applications, where multithreading can be used with almost no problems encountered, this is because this language follows the immutability idea(variables are immutable by default) which helps threads to communicate with each other safely.
 - Has Type Inference: the language automatically detects the type of data (although can be specified manually).
 - It reduces the use of parentheses and curly brackets and uses whitespace instead (similar to Python).
-- F# has a pipe operator | : it passes the results of one function to the following function creating this chain of arguments.
+- F# has a pipe operator |> : it passes the results of one function to the following function creating this chain of arguments.
 
 ### Code Examples!
 To compile our first F# program, all we have to do is install Microsoft Visual Studio (Mac/Linux/Windows). Inside Visual Studio, we create a new project and select F# from the language menu. We choose “Console App (.NET Core)” as a template and click on next.
-There will be a generated .fs file where we can paste the following code to have the program print out “Hello, World!”
+There will be a generated **.fs** file where we can paste the following code to have the program print out “Hello, World!”
 ```fsharp
 // import the System namespace (.NET framework)
 open System
